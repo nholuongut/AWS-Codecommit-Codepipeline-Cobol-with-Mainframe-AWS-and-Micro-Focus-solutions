@@ -157,9 +157,11 @@ Set up the directory structure with the “Transaction Path” and “Map Path�
 
 This library is licensed under the MIT-0 License. See the LICENSE file.
 
-[Contact an Author]
+### [Contact an Author]
 * [Name: nho Luong]
 * [Skype](luongutnho_skype)
 * [Github](https://github.com/nholuongut/)
 * [Linkedin](https://www.linkedin.com/in/nholuong/)
-* [Email Address](luongutnho@hotmail.com)
+* [Email Address](luongutnho@hotmail.com) 
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/nholuong)
