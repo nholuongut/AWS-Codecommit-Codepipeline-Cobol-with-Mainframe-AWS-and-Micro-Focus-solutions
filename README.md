@@ -5,6 +5,12 @@
 **Mainframes** are used by **Financial Institutions** for critical applications, batch data processing, online transaction processing, and mixed concurrent workloads. Mainframes have non-functional requirements such as performance, security, and resource availability to process all workloads. However, a potential resource deadlock may occur during the parallel development of new programs and subsequent testing. For example, two or more programs needing to access the same DB2 table or VSAM file simultaneously can generate a deadlock situation.
 Thus, the idea of this blogpost is to present a solution to the resource availability issue in the COBOL development process, using **Continuous Integration/Continuous Deployment services (CI/CD) from AWS** connected to an IDE such as Eclipse or Visual Studio. In the same pipeline of development, we use a plugin to connect **Micro Focus solution called Enterprise Developer**, for the step of compiling and running unit and functional tests.
 
+![](https://i.imgur.com/waxVImv.png)
+### [View all Roadmaps](https://github.com/nholuongut/all-roadmaps) &nbsp;&middot;&nbsp; [Best Practices](https://github.com/nholuongut/all-roadmaps/blob/main/public/best-practices/) &nbsp;&middot;&nbsp; [Questions](https://www.linkedin.com/in/nholuong/)
+
+# License
+* Nho Luong (c). All Rights Reserved.
+
 **SOLUTION OVERVIEW**
 
 The developer can use Git-compliant IDEs such as Eclipse or Visual Studio to make changes to COBOL code that are installed on desktops either locally using Amazon EC2 instances or the managed and secure Desktop as a Service (DaaS) solution named Amazon WorkSpaces. 
@@ -152,16 +158,17 @@ Check that the BANKDEMO server is started in the browser (https://localhost:86)
 
 Set up the directory structure with the “Transaction Path” and “Map Path” fields for CICS programs and the “JES Program path” field for Batch programs. In these fields, the developer needs to point to the directories where they copied the .DLLs files of programs.
 
-
-## License
-
-This library is licensed under the MIT-0 License. See the LICENSE file.
-
-### [Contact an Author]
+I'm are always open to your feedback.  Please contact as bellow information:
+### [Contact ]
 * [Name: nho Luong]
 * [Skype](luongutnho_skype)
 * [Github](https://github.com/nholuongut/)
 * [Linkedin](https://www.linkedin.com/in/nholuong/)
-* [Email Address](luongutnho@hotmail.com) 
+* [Email Address](luongutnho@hotmail.com)
 
+![](https://i.imgur.com/waxVImv.png)
+![](bitfield.png)
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/nholuong)
+
+# License
+* Nho Luong (c). All Rights Reserved.
